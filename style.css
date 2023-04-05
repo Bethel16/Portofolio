@@ -275,7 +275,7 @@ nav .nav-list li.btn:hover a {
 
 }
 
-.col-sm-3 {
+.col-sm-12 , .col-lg-3 , .col-md-4 {
    border: 1px#2ecc71 solid;
    align-items: center;
    margin-left: 75px;
@@ -308,7 +308,7 @@ nav .nav-list li.btn:hover a {
 }
 
 #container {
-   background-color: black;
+   /* background-color: black; */
 }
 
 .col-sm-6,
@@ -353,7 +353,7 @@ nav .nav-list li.btn:hover a {
    margin-top: 30px;
 }
 
-.col-sm-2 {
+.col-lg-2 {
    margin-top: 140px;
    border: 2px solid #2ecc71;
    margin-left: 40px;
@@ -368,7 +368,7 @@ nav .nav-list li.btn:hover a {
    font-size: 0px;
 }
 
-.col-sm-3:hover:after {
+.col-sm-12 , .col-lg-3 , .col-md-4:hover:after {
    content: attr(data-hover);
    font-size: 15px;
 }
