@@ -337,9 +337,18 @@ nav .nav-list li.btn:hover a {
 
 #col5 {
    margin-left: 145px;
-   margin-top: 25px;
+   margin-top: 2px;
 }
-
+@media screen and (max-width:930px) {
+   #col5 {
+      margin-left:40px;
+   }
+   #skillrow{
+      margin-left: 40px;
+   }
+.interest{
+  margin-left: 0px;
+}}
 .progress-bar {
    background-color: #2ecc71;
 }
